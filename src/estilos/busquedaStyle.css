@@ -1,0 +1,20 @@
+.mr-sm-2{
+    background-color: white;
+    position: relative;
+   
+}
+
+.my-sm-0{
+    background-color: black;
+    color: white;
+}
+.search{
+    position: absolute;
+    left: 100rem;
+    bottom: 1.2rem;
+}
+
+
+
+
+
