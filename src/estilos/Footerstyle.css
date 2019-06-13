@@ -1,0 +1,48 @@
+.footer_1{
+    padding: 5px;
+    background-color: gray;
+    position: fixed;
+    bottom: 0%;
+    width:100%;
+
+}
+
+.btn_btn-primary_mb-5{
+    position: relative;
+    background: gray;
+    width: auto;   
+    left: -10%; 
+    bottom: -4px;
+    border:gray;
+    }
+
+.btn_btn-primary_mb-6{
+    position: relative;
+    background: gray;
+    width: auto;   
+    left: 0%; 
+    bottom: -4px;
+    border:gray;
+}
+
+.btn_btn-primary_mb-7{
+    position: relative;
+    background: gray;
+    width: auto;   
+    left: 10%; 
+    bottom: 3px;
+    border:gray;
+}
+
+.Footer__logo2{
+   height: 50px;
+}
+
+.Footer__logo1{
+    height: 50px;
+    
+}
+
+.Footer__logo3{
+    height: 35px;
+}

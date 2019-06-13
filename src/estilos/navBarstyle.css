@@ -1,0 +1,27 @@
+.Navbar{
+    background-color: #db151ce8;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    z-index: 1071;
+    width: 100%;
+    padding: -4rem;
+}
+.Navbar__brand{
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.Navbar__brand-text{
+    font-size: 30px;
+    font-style: oblique;
+    font-family: Georgia;
+    color: black;
+}
+.Navbar__brand-logo{
+    height: 60px;
+}
+
+
+
