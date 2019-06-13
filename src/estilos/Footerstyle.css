@@ -4,6 +4,7 @@
     position: fixed;
     bottom: 0%;
     width:100%;
+    display: flex;
 
 }
 
@@ -14,6 +15,7 @@
     left: -10%; 
     bottom: -4px;
     border:gray;
+    justify-content: flex-start;
     }
 
 .btn_btn-primary_mb-6{

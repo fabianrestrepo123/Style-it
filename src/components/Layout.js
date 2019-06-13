@@ -1,15 +1,14 @@
 import React, {Component} from 'react';
 import NavbarComponent from './NavBarComponents'
 import NavFooter from './Footer'
+import Carrusel from './Carrusel'
 
 const Layout = (props) =>{
     return (
         <React.Fragment>
-            <div>
             <NavbarComponent/>
             < NavFooter />
             {props.children}
-            </div>
         </React.Fragment>
     )
 }
