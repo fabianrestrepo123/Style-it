@@ -10,7 +10,7 @@ class Cartauno extends Component{
                 <div class="card uno">
                     <div class="card-body1">
                         <Carousel/>
-                        <button type="submit" class="btn btn-primary mb-2 edit-1">Registrarse</button>
+                        <button type="submit" class="btn btn-outline-success my-2 edit-1">¡Unete a la comunidad!</button>
                     </div>
                 </div>
                 <div class="card dos">

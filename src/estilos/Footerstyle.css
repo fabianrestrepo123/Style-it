@@ -8,7 +8,7 @@
 
 }
 
-.btn_btn-primary_mb-5{
+.btn-btn-success1{
     position: relative;
     background: gray;
     width: auto;   
@@ -18,18 +18,17 @@
     justify-content: flex-start;
     }
 
-.btn_btn-primary_mb-6{
+.btn-btn-success2{
     position: relative;
     background: gray;
     width: auto;   
     left: 0%; 
     bottom: -4px;
-    border:gray;
+    border:gray; 
 }
 
-.btn_btn-primary_mb-7{
+.btn-btn-success3{
     position: relative;
-    background: gray;
     width: auto;   
     left: 10%; 
     bottom: 3px;
@@ -38,13 +37,17 @@
 
 .Footer__logo2{
    height: 50px;
+   background: gray;
+   
 }
 
 .Footer__logo1{
     height: 50px;
+    background: gray;
     
 }
 
 .Footer__logo3{
     height: 35px;
+    background: gray;
 }

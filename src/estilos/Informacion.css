@@ -31,7 +31,10 @@
     top: 35rem;
     padding: 1rem;
     font-size: 15px;
-    width: 10rem;
+    width: 20rem;
+    background: black;
+    border: black;
+    color: white;
 }  
 .Descripcion{
     position: relative;
