@@ -1,0 +1,30 @@
+.contenedor-botones{
+    display: flex;
+    justify-content:space-around;
+}
+
+.btn-diseñar{
+    position: relative;
+    border: white;
+    background: white;
+    top: 150px;
+}
+.btn-diseño{
+    border: white;
+    background: white;
+    position:relative;
+    top: 150px;
+}
+
+.diseñar{
+    height: 20rem;
+    background: white;  
+    border: white;
+}
+
+.diseño{
+    height: 20rem;
+    background: white;  
+    border: white;
+}
+

@@ -13,9 +13,9 @@ function App() {
     <BrowserRouter>
     <Layout>
       <Switch>
-        <Route exact path="/" component={Welcome}/>
-        <Route path='*' exact={true} component={NotFound404} />
         <Route exact path="/" component={Home}/>
+        <Route path='*' exact={true} component={NotFound404} />
+        <Route exact path="/" component={Welcome}/>
         <Route path='*' exact={true} component={NotFound404} />
       </Switch>
     </Layout>

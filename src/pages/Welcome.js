@@ -6,9 +6,6 @@ class Welcome extends Component{
         return(
             <div className="col-6">
                 < Cartauno/>
-                <div>
-
-                </div>
             </div>
         )
     }
