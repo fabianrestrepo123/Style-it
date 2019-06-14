@@ -1,0 +1,23 @@
+.Home{
+    display: flex;
+}
+
+.h{
+    justify-content: flex-start;
+    width: 250px;
+}
+
+.g{
+    justify-content: flex-end;
+    width: 250px;
+}
+
+.mb-8{
+    background-color: black;
+    color: white;
+}
+
+.mb-9{
+    background-color: black;
+    color: white;
+}

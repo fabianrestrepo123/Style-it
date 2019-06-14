@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import '../estilos/Informacion.css'
 import Carousel from './Carrusel.js'
+import {Link} from 'react-router-dom'
 
 class Cartauno extends Component{
     render(){
