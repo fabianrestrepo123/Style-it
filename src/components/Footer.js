@@ -18,7 +18,7 @@ class NavFooter extends Component{
             <footer class="footer_1">
                 <div class="container-fluid">
                     <div className="row-3">
-                        <a href="https://www.facebook.com/?ref=tn_tnmn" class="btn-btn-success1" >
+                        <a href="https://www.facebook.com/?ref=tn_tnmn"  class="btn-btn-success1" >
                         <img className="Footer__logo1" src={logo} alt="Logo" /></a>
                         <a href="https://twitter.com/?lang=es" class="btn-btn-success2" >
                         <img className="Footer__logo2" src={logodos} alt="Logo" /></a>
