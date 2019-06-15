@@ -1,8 +1,12 @@
 import React,{Component} from 'react'
 import {Link} from 'react-router-dom'
 import '../estilos/RegistroInicio.css'
+import {BrowserRouter, Route, Switch,Redirect} from 'react-router-dom'
+import Home from '../pages/Home'
+import '../estilos/homeStyle.css'
+import '../estilos/Botones.css'
 
-class Texto extends Component{
+class RegistroInicio extends Component{
     render(){
         return(
             <div>
@@ -28,7 +32,8 @@ class Texto extends Component{
                         />
                     </div>
                     <div> 
-                    <button type="button" class="btn btn-primary2">Iniciar Sesión</button>
+                    < Link  class="btn btn-primary2"to="Registroinicio/home">Iniciar Sesión
+                    </Link>
                     </div>
                 </form>
                 </div>
@@ -90,7 +95,7 @@ class Texto extends Component{
                         />
                     </div>
                     <div> 
-                    <button type="button" class="btn btn-primary3">Registrar</button>
+                    <Link class="btn btn-primary3" to="Registroinicio/home">Registrar</Link>
                 </div>
                 </form>
                 </div>
@@ -99,4 +104,4 @@ class Texto extends Component{
         )
     }
 }
-export default Texto;
+export default RegistroInicio;

@@ -4,10 +4,6 @@ import logo from '../estilos/imagenes/Style-it.png'
 import Busqueda from './Busqueda'
 import {Link} from 'react-router-dom'
 
-
-
-
-
 class NavBarComponents extends Component{
     render (){
         return(

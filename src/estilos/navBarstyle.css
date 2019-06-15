@@ -1,5 +1,5 @@
 .Navbar{
-    background-color: red;
+    background-color: #DB151B;
     position: sticky;
     top: 0;
     position: -webkit-sticky;
@@ -16,11 +16,13 @@
     font-family: Georgia;
     color: black;
 }
+
 .Navbar__brand-logo{
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     height: 60px;
 }
+
 
 
 
