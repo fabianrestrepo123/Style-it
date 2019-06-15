@@ -1,7 +1,11 @@
 import React,{Component} from 'react'
 import '../estilos/Informacion.css'
 import Carousel from './Carrusel.js'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import RegistroInicio from '../pages/RegistroInicio'
+import '../estilos/RegistroInicio.css'
+import '../estilos/Botones.css'
+import '../estilos/homeStyle.css'
 
 class Cartauno extends Component{
     render(){
@@ -10,7 +14,8 @@ class Cartauno extends Component{
                 <div class="card uno">
                     <div class="card-body1">
                         <Carousel/>
-                        <button type="submit" class="btn btn-outline-success my-2 edit-1">¡Unete a la comunidad!</button>
+                        <Link className="btn btn-outline-success my-2 edit-1"to="/Registroinicio">¡Unete a la comunidad!
+                        </Link>
                     </div>
                 </div>
                 <div class="card dos">

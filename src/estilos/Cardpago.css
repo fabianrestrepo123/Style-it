@@ -1,0 +1,20 @@
+.carddos{
+    position: absolute;
+    border-style: groove;
+    border-color: #bfbfbf;
+    width: 40.40rem;
+    left:90rem;
+    height: 57.70rem;
+}
+.btn-pagar{
+    background: black;
+    color: white;
+    width: 10rem;
+    position:absolute;
+    top: 50rem;
+    left:15rem;
+}
+.card-img-top{
+    position: absolute;
+    top: 35rem;
+}
