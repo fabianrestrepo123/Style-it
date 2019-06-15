@@ -1,0 +1,131 @@
+.inicio { 
+    position: relative;
+    height: 450px;
+    width: 440px;
+    background-color: white;
+    left: 10%;
+    top: 40px;
+    bottom: 100px;
+    box-sizing: border-box;
+    border: #bfbfbf;
+    border-style: groove;
+}
+.registro { 
+    position: absolute;
+    height: 450px;
+    width: 440px;
+    background-color: white;
+    left: 55%;
+    bottom: 101px;
+    box-sizing: border-box;
+    border: #bfbfbf;
+    border-style: groove;
+}
+.card-body{
+    left: 40%;
+}
+.form-group1{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    left: 21%;
+    top: 25%;
+
+}
+.form-group2{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    left: 21%;
+    top: 35%;
+
+}
+.form-group3{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    left: 21%;
+    top: 45%;
+
+}
+.form-group4{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    left: 21%;
+    top: 55%;
+
+}
+.form-group5{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    left: 21%;
+    top: 65%;
+
+}
+.form-group6{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    left: 21%;
+    top: 75%;
+
+}
+.form-group7{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    left: 21%;
+    top: 40%;
+
+}
+.form-group8{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    left: 21%;
+    top: 50%;
+
+}
+.letrero1{
+    position: absolute;
+    height: 50px;
+    width: 250px;
+    left: 20%;
+    top: 5%;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+}
+.letrero2{
+    position: absolute;
+    height: 50px;
+    width: 250px;
+    left: 20%;
+    top: 5%;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+}
+.ImagenPerfil{
+    position: absolute;
+    left: 140%;
+    bottom: 39px;
+}
+.btn-primary2{
+    position: relative;
+    color:white;
+    background:gray;
+    height: 35px;
+    width: 250px;   
+    left: 91px; 
+    top: 290px;;
+}
+.btn-primary3{
+    position: relative;
+    color:white;
+    background:gray;
+    height: 35px;
+    width: 250px;   
+    left: 91px; 
+    top: 380px
+}
