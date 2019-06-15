@@ -1,0 +1,86 @@
+.diseños1{
+    position: relative;
+    left: 140px;
+    height: 400px;
+    width: 400px;
+    top: 20px;
+    box-sizing: border-box;
+    border: #bfbfbf;
+    border-style: groove;
+    background: rgb(196, 195, 195);
+}
+.diseños2{
+    position: relative;
+    left: 140px;
+    height: 400px;
+    width: 400px;
+    top: 40px;
+    box-sizing: border-box;
+    border: #bfbfbf;
+    border-style: groove;
+    background: rgb(196, 195, 195);
+}
+.diseños3{
+    position: relative;
+    left: 140px;
+    height: 400px;
+    width: 400px;
+    top: 60px;
+    box-sizing: border-box;
+    border: #bfbfbf;
+    border-style: groove;
+    background: rgb(196, 195, 195);
+}
+.diseños4{
+    position: relative;
+    left: 140px;
+    height: 400px;
+    width: 400px;
+    top: 80px;
+    box-sizing: border-box;
+    border: #bfbfbf;
+    border-style: groove;
+    background: rgb(196, 195, 195);
+}
+.diseños5{
+    position: relative;
+    left: 140px;
+    height: 400px;
+    width: 400px;
+    top: 100px;
+    box-sizing: border-box;
+    border: #bfbfbf;
+    border-style: groove;
+    background: rgb(196, 195, 195);
+}
+.imagen{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.my-sm-1{
+    position: relative;
+    top: 60px;
+    left: 130px;
+    font-size: 25px;
+}
+.descripcion{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    bottom: 353px;
+    left: 420px;
+    box-sizing: border-box;
+    border: #bfbfbf;
+    border-style: groove;
+    background: rgb(196, 195, 195);
+}
+.descripcion2{
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.descripcion3{
+    position: relative;
+    top: 20px;
+}
