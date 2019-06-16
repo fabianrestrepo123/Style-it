@@ -5,6 +5,8 @@ import dos from '../estilos/imagenes/a.png'
 import tres from '../estilos/imagenes/c.png'
 import cuatro from '../estilos/imagenes/g.png'
 import cinco from '../estilos/imagenes/i.png'
+import {Link} from 'react-router-dom'
+import {BrowserRouter, Route, Switch,Redirect} from 'react-router-dom'
 
 class Diseños extends Component{
     render (){
@@ -23,7 +25,7 @@ class Diseños extends Component{
                                     <h3>Diseñador:  Carlos Morales</h3>
                                 </div>
                             </div>
-                            <button className="btn btn-outline-success my-2 my-sm-0 my-sm-1">Comprar</button>
+                            <Link className="btn btn-outline-success my-2 my-sm-0 my-sm-1" to="/Verdiseños/pagos">Comprar</Link>
                         </div>
                     </div>
                     <div className="diseños2"> 
@@ -37,7 +39,7 @@ class Diseños extends Component{
                                     <h3>Diseñador:  German Melo</h3>
                                 </div>
                             </div>
-                            <button className="btn btn-outline-success my-2 my-sm-0 my-sm-1">Comprar</button>
+                            <Link className="btn btn-outline-success my-2 my-sm-0 my-sm-1" to="/Verdiseños/pagos">Comprar</Link>
                         </div>
                     </div>        
                     <div className="diseños3">         
@@ -51,7 +53,7 @@ class Diseños extends Component{
                                     <h3>Diseñador:  Esteban Suarez</h3>
                                 </div>
                             </div>
-                            <button className="btn btn-outline-success my-2 my-sm-0 my-sm-1">Comprar</button>
+                            <Link className="btn btn-outline-success my-2 my-sm-0 my-sm-1"to="/Verdiseños/pagos">Comprar</Link>
                         </div>
                     </div>
                     <div className="diseños4">         
@@ -65,7 +67,7 @@ class Diseños extends Component{
                                     <h3>Diseñador:  Nicolas Corales</h3>
                                 </div>
                             </div>
-                            <button className="btn btn-outline-success my-2 my-sm-0 my-sm-1">Comprar</button>
+                            <Link className="btn btn-outline-success my-2 my-sm-0 my-sm-1" to="/Verdiseños/pagos">Comprar</Link>
                         </div>
                     </div>
                     <div className="diseños5">         
@@ -79,7 +81,7 @@ class Diseños extends Component{
                                     <h3>Diseñador:  Lucila Perez</h3> 
                                 </div>
                             </div>
-                            <button className="btn btn-outline-success my-2 my-sm-0 my-sm-1">Comprar</button>
+                            <Link className="btn btn-outline-success my-2 my-sm-0 my-sm-1"to="/Verdiseños/pagos">Comprar</Link>
                         </div>
                     </div>
                 </div>

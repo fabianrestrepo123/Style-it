@@ -1,11 +1,10 @@
 .footer_1{
+    position:fixed;
+    display: flex;
     padding: 5px;
     background-color: gray;
-    position: fixed;
     bottom: 0%;
     width:100%;
-    display: flex;
-
 }
 
 .btn-btn-success1{
