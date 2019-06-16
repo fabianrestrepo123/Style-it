@@ -1,0 +1,12 @@
+.cardtres{ 
+    position: absolute;
+    left: 20rem;;
+}
+
+.btn-Confirmar{
+    position: absolute;
+    background: black;
+    color: white;
+    left: 0rem;
+    top: 40rem;
+}

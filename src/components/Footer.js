@@ -18,11 +18,11 @@ class NavFooter extends Component{
             <footer class="footer_1">
                 <div class="container-fluid">
                     <div className="row-3">
-                        <a href="https://www.facebook.com/?ref=tn_tnmn"  class="btn-btn-success1" >
+                        <a href="https://www.facebook.com/?ref=tn_tnmn"   class="btn-btn-success1" target="_blank" >
                         <img className="Footer__logo1" src={logo} alt="Logo" /></a>
-                        <a href="https://twitter.com/?lang=es" class="btn-btn-success2" >
+                        <a href="https://twitter.com/?lang=es" class="btn-btn-success2"  target="_blank">
                         <img className="Footer__logo2" src={logodos} alt="Logo" /></a>
-                        <a href="https://www.instagram.com/?hl=es-la" class="btn-btn-success3" >
+                        <a href="https://www.instagram.com/?hl=es-la" class="btn-btn-success3"  target="_blank">
                         <img className="Footer__logo3" src={logotres} alt="Logo" /></a>
                     </div>
                 </div>

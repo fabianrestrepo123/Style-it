@@ -8,6 +8,8 @@ import Home from '../src/pages/Home';
 import RegistroInicio from './pages/RegistroInicio';
 import Pagos from '../src/pages/Pagos';
 import VerDiseños from '../src/pages/VerDiseños';
+import Confirmacion from'../src/pages/Confirmacion'
+import Mensaje from '../src/pages/Mensaje'
 import {BrowserRouter, Route, Switch,Redirect} from 'react-router-dom'
 
 
@@ -22,10 +24,15 @@ function App() {
         <Route path='/' exact={true} component={NotFound404} />
         <Route exact path="/Registroinicio/home" component={Home}/>
         <Route path='/' exact={true} component={NotFound404} />
-        <Route exact path="/" component={VerDiseños}/>
+        <Route exact path="/Registroinicio/home/Verdiseños" component={VerDiseños}/>
         <Route path='/' exact={true} component={NotFound404} />
-        <Route exact path="/" component={Pagos}/>
+        <Route exact path="/Verdiseños/pagos" component={Pagos}/>
         <Route path='/' exact={true} component={NotFound404} />
+        <Route exact path="/pagos/confirmacion" component={Confirmacion}/>
+        <Route path='/' exact={true} component={NotFound404} />
+        <Route exact path="/confirmacion/mensaje" component={Mensaje}/>
+        <Route path='/' exact={true} component={NotFound404} />
+        <Route exact path="/mensaje/home" component={Home}/>
       </Switch>
     </Layout>
   </BrowserRouter>
