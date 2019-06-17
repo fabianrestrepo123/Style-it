@@ -10,8 +10,8 @@ class Botones extends  Component{
     render(){
         return(    
             <div className="contenedor-botones">   
-                <button type="button" class="btn btn-diseñar">
-                <img className="diseñar" src={Diseñar} alt="Logo" /></button>
+                <Link class="btn btn-diseñar" to="home/diseñar">
+                <img className="diseñar" src={Diseñar} alt="Logo" /></Link>
                 <Link class="btn btn-diseño" to="home/Verdiseños">
                 <img className="diseño" src={Diseño} alt="Logo" /></Link>
             </div> 

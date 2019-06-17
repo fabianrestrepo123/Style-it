@@ -1,6 +1,8 @@
 import React , {Component} from 'react'
 import '../estilos/Diseño.css'
 import Montaje from '../components/Montaje'
+import {Link} from 'react-router-dom'
+import {BrowserRouter, Route, Switch,Redirect} from 'react-router-dom'
 
 class Diseño extends Component{
     state={};
@@ -32,7 +34,7 @@ class Diseño extends Component{
                         </div> 
                         <h6>¿No te gustaron? Ingresa otros diseños.</h6>
                     </div>
-                    <button class="btn btn-outline-success my-2 my-sm-0 boton1">Realizar Compra</button>
+                    <Link class="btn btn-outline-success my-2 my-sm-0 boton1" to="/diseñar/pagos">Realizar Compra</Link>
                 </div>
                 <div className="vista3">
                     <h1 className="letrero1">GORRAS</h1>
@@ -58,7 +60,7 @@ class Diseño extends Component{
                         </div> 
                         <h6>¿No te gustaron? Ingresa otros diseños.</h6>
                     </div>
-                    <button class="btn btn-outline-success my-2 my-sm-0 boton1">Realizar Compra</button>
+                    <Link class="btn btn-outline-success my-2 my-sm-0 boton1" to="/diseñar/pagos">Realizar Compra</Link>
                 </div>
             </div>
         )

@@ -25,6 +25,10 @@ function App() {
         <Route path='/' exact={true} component={NotFound404} />
         <Route exact path="/Registroinicio/home" component={Home}/>
         <Route path='/' exact={true} component={NotFound404} />
+        <Route exact path="/Registroinicio/home/diseñar/" component={Diseñar}/>
+        <Route path='/' exact={true} component={NotFound404} />
+        <Route exact path="/diseñar/pagos" component={Pagos}/>
+        <Route path='/' exact={true} component={NotFound404} />
         <Route exact path="/Registroinicio/home/Verdiseños" component={VerDiseños}/>
         <Route path='/' exact={true} component={NotFound404} />
         <Route exact path="/" component={Diseñar}/>
@@ -35,7 +39,7 @@ function App() {
         <Route path='/' exact={true} component={NotFound404} />
         <Route exact path="/confirmacion/mensaje" component={Mensaje}/>
         <Route path='/' exact={true} component={NotFound404} />
-        <Route exact path="/mensaje/home" component={Home}/>
+        
       </Switch>
     </Layout>
   </BrowserRouter>
