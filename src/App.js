@@ -25,13 +25,17 @@ function App() {
         <Route path='/' exact={true} component={NotFound404} />
         <Route exact path="/Registroinicio/home" component={Home}/>
         <Route path='/' exact={true} component={NotFound404} />
-        <Route exact path="/Registroinicio/home/diseñar/" component={Diseñar}/>
+        <Route exact path="/home" component={Home}/>
+        <Route path='/' exact={true} component={NotFound404} />
+        <Route exact path="/home/diseñar/" component={Diseñar}/>
+        <Route path='/' exact={true} component={NotFound404} />
+        <Route exact path="/Registroinicio/home/diseñar" component={Diseñar}/>
         <Route path='/' exact={true} component={NotFound404} />
         <Route exact path="/diseñar/pagos" component={Pagos}/>
         <Route path='/' exact={true} component={NotFound404} />
         <Route exact path="/Registroinicio/home/Verdiseños" component={VerDiseños}/>
         <Route path='/' exact={true} component={NotFound404} />
-        <Route exact path="/" component={Diseñar}/>
+        <Route exact path="/home/Verdiseños" component={VerDiseños}/>
         <Route path='/' exact={true} component={NotFound404} />
         <Route exact path="/Verdiseños/pagos" component={Pagos}/>
         <Route path='/' exact={true} component={NotFound404} />
