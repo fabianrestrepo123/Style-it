@@ -2,19 +2,94 @@
     position: absolute;
     border-style: groove;
     border-color: #bfbfbf;
-    width: 40.40rem;
-    left:90rem;
-    height: 57.70rem;
+    width: 80rem;
+    left: 31rem;
+    height: 50rem;
+    top: 13%;
+}
+.card-title{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-weight:bold;
+}
+.valorcompra{
+    position: absolute;
+    left: 30px;
+    width: 250px;
+    top:60%
+}
+.valorcompra2{
+    position: absolute;
+    left: 30px;
+    width: 250px;
+    top:70%
 }
 .btn-pagar{
     background: black;
     color: white;
     width: 10rem;
     position:absolute;
-    top: 50rem;
+    top: 80%;
     left:15rem;
 }
 .card-img-top{
     position: absolute;
-    top: 35rem;
+    width: 40%;
+    left: 30px;
+    top: 20%;
+}
+.form-groupuno{
+    position: absolute;
+    left: 63%;
+    width: 250px;
+    top:10%
+}
+.form-groupdos{
+    position: absolute;
+    left: 63%;
+    width: 250px;
+    top:20%
+}
+.form-grouptres{
+    position: absolute;
+    left: 63%;
+    width: 250px;
+    top:30%
+}
+.form-groupcuatro{
+    position: absolute;
+    left: 63%;
+    width: 250px;
+    top:40%
+}
+.form-groupcinco{
+    position: absolute;
+    left: 63%;
+    width: 250px;
+    top:50%
+}
+.form-groupseis{
+    position: absolute;
+    left: 63%;
+    width: 250px;
+    top:60%
+}
+.form-groupsiete{
+    position: absolute;
+    left: 63%;
+    width: 250px;
+    top:70%
+}
+.form-groupocho{
+    position: absolute;
+    left: 63%;
+    width: 250px;
+    top:80%
+}
+.form-groupnueve{
+    position: absolute;
+    left: 30px;
+    width: 250px;
+    top:50%
 }
