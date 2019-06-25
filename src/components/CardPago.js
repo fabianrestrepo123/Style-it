@@ -26,9 +26,9 @@ class CardPago extends Component{
                     <div className="form-groupuno">
                         <input 
                             className="form-control" 
-                            type="N° de Targeta" 
-                            name="N° de Targeta"
-                            placeholder="N° de Targeta"  
+                            type="N° de Tarjeta" 
+                            name="N° de Tarjeta"
+                            placeholder="N° de Tarjeta"  
                         />
                     </div>
                     <div className="form-groupdos">
@@ -50,9 +50,9 @@ class CardPago extends Component{
                     <div className="form-groupcuatro">
                         <input 
                             className="form-control" 
-                            type="Titular de la Targeta" 
-                            name="Titular de la Targeta"
-                            placeholder="Titular de la Targeta"  
+                            type="Titular de la Tarjeta" 
+                            name="Titular de la Tarjeta"
+                            placeholder="Titular de la Tarjeta"  
                         />
                     </div>
                     <div className="form-groupcinco">
