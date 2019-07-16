@@ -4,28 +4,25 @@
     background:gray;
     height: 35px;
     width: 250px;   
-    left: 91px; 
-    top: 380px
 }
-
+.letrero1{
+    font-weight: bold;
+    color: black;
+}
 .form-group10{
     position: absolute;
     height: 100px;
     width: 250px;
     left: 21%;
     top: 25%;
-
 }
-
 .form-group11{
     position: absolute;
     height: 100px;
     width: 250px;
     left: 21%;
     top: 35%;
-
 }
-
 .form-group12{
     position: absolute;
     height: 100px;
@@ -34,7 +31,6 @@
     top: 45%;
 
 }
-
 .form-group13{
     position: absolute;
     height: 100px;
@@ -43,55 +39,48 @@
     top: 55%;
 
 }
-
 .form-group14{
     position: absolute;
     height: 100px;
     width: 250px;
     left: 21%;
     top: 65%;
-
 }
-
 .form-group15{
     position: absolute;
     height: 100px;
     width: 250px;
     left: 21%;
     top: 75%;
-
 }
-
 .info { 
     position: relative;
     height: 450px;
     width: 440px;
+    top: 25px;
     background-color: white;
-    left: 10%;
-    top: 40px;
-    bottom: 100px;
     box-sizing: border-box;
     border: #bfbfbf;
     border-style: groove;
 }
 .preview { 
-    position: absolute;
+    position: relative;
     height: 450px;
     width: 440px;
+    top: 25px;
     background-color: white;
-    left: 55%;
-    bottom: 101px;
     box-sizing: border-box;
     border: #bfbfbf;
     border-style: groove;
 }
-.card-body{
-    left: 40%;
-}
-
 .vista-preview{
     width: 300px;
     position: absolute;
     top: 10rem;
     left: 7rem;
+}
+.preview-envio{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
 }
