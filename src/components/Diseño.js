@@ -6,7 +6,6 @@ import {BrowserRouter, Route, Switch,Redirect} from 'react-router-dom'
 
 class Diseño extends Component{
     state={};
-
     render (){
         return(
             <div>

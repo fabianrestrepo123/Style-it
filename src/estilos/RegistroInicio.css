@@ -1,28 +1,29 @@
 .inicio { 
     position: relative;
-    height: 450px;
+    height: 510px;
     width: 440px;
+    top: 10px;
     background-color: white;
-    left: 10%;
-    top: 40px;
-    bottom: 100px;
     box-sizing: border-box;
     border: #bfbfbf;
     border-style: groove;
+
 }
 .registro { 
-    position: absolute;
-    height: 450px;
+    position: relative;
+    height: 510px;
     width: 440px;
+    top: 10px;
     background-color: white;
-    left: 55%;
-    bottom: 101px;
     box-sizing: border-box;
     border: #bfbfbf;
     border-style: groove;
+
 }
-.card-body{
-    left: 40%;
+.registroinicio{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
 }
 .form-group1{
     position: absolute;
@@ -88,28 +89,11 @@
     top: 50%;
 
 }
-.letrero1{
-    position: absolute;
-    height: 50px;
-    width: 250px;
-    left: 20%;
-    top: 5%;
-    color: rgb(0, 0, 0);
-    font-weight:bold;
-}
 .letrero2{
-    position: absolute;
-    height: 50px;
-    width: 250px;
-    left: 20%;
-    top: 5%;
+    position: relative;
+    left: 3%;
     color: rgb(0, 0, 0);
     font-weight:bold;
-}
-.ImagenPerfil{
-    position: absolute;
-    left: 140%;
-    bottom: 39px;
 }
 .btn-primary2{
     position: relative;
@@ -118,7 +102,7 @@
     height: 35px;
     width: 250px;   
     left: 91px; 
-    top: 290px;;
+    top: 350px;;
 }
 .btn-primary3{
     position: relative;
